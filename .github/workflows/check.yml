@@ -17,7 +17,7 @@ jobs:
         fetch-depth: 1
 
     - name: Set up QEMU
-      uses: docker/setup-qemu-action@v3
+      uses: docker/setup-qemu-action@v4
 
     - name: Install Nix
       uses: DeterminateSystems/nix-installer-action@main
